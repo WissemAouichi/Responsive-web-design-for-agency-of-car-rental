@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de location de voiture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemobile.css">
+    <link rel="stylesheet" href="stylemobiles.css">
+    <script src="https://kit.fontawesome.com/7565d787a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- **************************** Header *****************************-->
+    <div class="header">
+        <div class="logospace">
+            <img class="logo" src="img/logo2.jpg" alt="logo">
+        </div>
+        <div class="topbar">
+            <p style="display: inline;"><i class="fas fa-phone-alt fa-2x"></i> Tel: +216 52 669 340</p>
+            <form action="" method="get" style="display: inline; text-align: center;">
+                <i class="fas fa-language fa-2x"></i> <select name="lang" id="lang">
+                    <option value="Français">Fr</option>
+                    <option value="Arabe">Ar</option>
+                    <option value="English">Eng</option>
+                </select>
+            </form>
+        </div>
+        <div class="navright">
+            <a href="#cont">Contact</a>
+            <a href="#fid">Fidélité</a>
+            <a href="#prom">Promotions</a>
+            <a href="#res">Réservation</a>
+        </div>
+    </div>
+ <!-- *************************** Reservation *************************-->
+    <div class="reswrapper" id="res">
+        <div class="containerres">
+            <p>
+                <h1>Rendre tes vacances et tes affairs plus facile avec l'agence WissCar</h1>
+                <h2>Réservez votre location de voiture en Tunisie</h2>
+            </p>
+            <form action="" method="get" style="width: 80%;">
+                <select name="carselect" id="carselect" style="width: 100%;height: 1.5rem;">
+                    <option value="Select">Select your car</option>
+                    <option value="Audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Renault">Renault</option>
+                    <option value="Peugeot">Peugeot</option>
+                </select> <br> <br>
+                <table style="width: 100%;height: 1.5rem;">
+                    <tr>
+                        <td><label for="datein" style="color:wheat">Date réservation</label></td>
+                        <td><label for="dateout" style="color:wheat">Date retour</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="date" name="datein" id="datein" style="width: 90%; height: 1.5rem;"></td>
+                        <td><input type="date" name="dateout" id="dateout" style="width: 90%; height: 1.5rem;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding-top: 20px;">
+                            <button type="submit" id="submit" style="width: 100%;height: 1.5rem;">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+ <!-- *************************** Nos promotions **********************-->
+    <div class="promcontainer" id="prom">
+        <p>
+            <h2>Nos Promotions Exclusifs</h2> 
+            On vous propose les meilleurs promos pour vous accompagner dans une expérience ultime dans le monde d'automobile</p>
+        <div class="cardscontainer">
+            <div class="card">
+                <img src="img/BMW.jpeg" alt="Avatar" style="width:100%; height: 75%;">
+                <div class="container">
+                    <h4><b>Voiture 1</b></h4> 
+                    <p>Voiture luxieuse</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="/home/wissem/Desktop/Agence/branch2/Agence-de-location-voiture-branch2/Agence/img/ford.jpg" alt="Avatar" style="width:100%; height: 75%;">
+                <div class="container">
+                    <h4><b>Voiture 2</b></h4> 
+                    <p>Voiture avec des options</p> 
+                </div>
+            </div>
+            <div class="card">
+                <img src="/home/wissem/Desktop/Agence/branch2/Agence-de-location-voiture-branch2/Agence/img/peugeot1.jpg" alt="Avatar" style="width:100%; height: 75%;">
+                <div class="container">
+                    <h4><b>Voiture 3</b></h4> 
+                    <p>Voiture ordinaire</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- *************************** Fidélité ****************************-->
+    <div class="fidelitewrapper" id="fid">
+        <h2>Fidélité</h2>
+        <p>
+            Optez pour Teamcar, votre meilleure agence de location voiture Tunisie, avec ses offres irrésistibles et vous découvrirez ce qui nous distingue des autres courtiers:
+            <ul>
+                <li>Si vous optez pour louer une voiture pour une longue période et avec le moindre prix, on met à votre disposition la Fiat PANDA à partir de 1200 Dinars Tunisiens par mois TTC pour le reste de l'année 2020.</li>
+                <li>Si vous préférez une voiture compacte pour une location longue durée au tarif préférentiel, on vous propose la PROMOTION Teamcar 2020 de la nouvelle Toyota Yaris à uniquement 48 Dinar Tunisien par jour TTC pour les périodes de location de voiture plus que 08 jours.</li>
+                <li>Renouvelez votre réservation avec Teamcar et devenez parmi nos clients fidèles pour profiter des points MERCI Teamcar et touchez jusqu’à -200 Dinars Tunisiens de réduction sur la location de votre voiture en Tunisie.</li>
+                <li>N’attendez plus et gérez votre prochaine location avec Teamcar pour augmenter vos points MERCI et vous serez le bienvenu dans notre espace réservation client.</li>
+                <li>Vous pouvez récupérer votre véhicule de location à l'aéroport de Tunis, à l'aéroport d'Enfidha Hammamet ou aussi à l'hôtel où vous séjournez.</li>
+            </ul>
+        </p>
+ <!-- *************************** Contact *****************************-->
+        <div class="contactwrapper" id="cont">
+            <p style="display: inline-block;"><b>Inscrivez vous à notre newsletter </b></p> 
+            <div class="contactdiv">
+                <input type="email" name="email" id="email" placeholder="enter your email" style="width: 400px;">
+            </div>
+            <div class="contactdiv">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+ <!-- *************************** Footer *****************************-->
+    <div class="footerwrapper">
+        <div class="agence">
+            <h3>Agence</h2>
+            <p>
+                <strong>Adresse:</strong> 12 rue Habib Thameur Ariana <br>
+                <strong>Tel:</strong> +216 52 669 340 <br>
+                <strong>Mail:</strong> <span style="word-wrap: break-word;"> wissem.aouichi@gmail.com </span>
+            </p>
+        </div>
+        <div class="service">
+            <h3>Service client</h3>
+            <div class="servicewrap" style="display: flex; flex-direction: column; justify-content: space-around;">
+
+                    <a href="">Contactez-nous</a><br>
+                    <a href="">Témoignage client</a><br>
+                    <a href="">FAQ</a>
+            </div>
+        </div>
+        <div class="socialmedia">
+            <h3>Suivez-nous</h3>
+
+        </div>
+ </div>
+
+</body>
+</html>
